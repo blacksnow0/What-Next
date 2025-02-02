@@ -4,7 +4,7 @@ import support from "../../../public/images/support.jpeg";
 
 function Support() {
   return (
-    <section className="section-toggle rounded-lg flex flex-col md:flex-row items-center justify-around px-8 md:px-32 py-20 space-y-8 md:space-y-0 md:space-x-16">
+    <section className="section-toggle rounded-lg flex flex-col md:flex-row items-center justify-around px-8 md:px-32 py-20 space-y-8 md:space-y-0 md:space-x-16 md:my-10">
       <div className="flex-1">
         <Image
           src={support}

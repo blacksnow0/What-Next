@@ -7,14 +7,12 @@ function Hero() {
   return (
     <main className="min-h-[40vh] flex justify-center items-center">
       <div>
-        <h1 className="text-2xl">
+        <h1 className="font-bold text-3xl">
           {" "}
-          <span className="font-bold text-3xl text-orange-600">
-            What Next !
-          </span>{" "}
-          - Find Your Dream Job Today
+          What
+          <span className=" text-orange-600"> Next!</span> -
+          <span className="text-2xl"> Find Your Dream Job Today</span>
         </h1>
-
         <lable></lable>
         <input
           type="text"

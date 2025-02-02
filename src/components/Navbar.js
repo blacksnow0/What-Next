@@ -15,7 +15,7 @@ function Navbar() {
               className="relative text-md tracking-wider font-medium cursor-pointer transition-all duration-300 group"
             >
               {item}
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-orange-700 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 top-6 w-0 h-[3px] bg-orange-700 transition-all duration-300 group-hover:w-full"></span>
             </li>
           )
         )}
